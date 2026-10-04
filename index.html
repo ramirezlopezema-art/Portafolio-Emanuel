@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal de Ana Gómez, desarrolladora web."
+    />
+    <title>Emanuel Ramírez López| Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <a class="marca" href="#inicio" aria-label="Ir al inicio">EL<span>.</span></a>
+
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="controles-usuario">
+        <button id="btn-toggle-tema" class="btn-tema" type="button" aria-pressed="false">
+          🌙 Cambiar Tema
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero" aria-labelledby="titulo-principal">
+        <div class="hero-contenido">
+          <p class="etiqueta">Portafolio personal</p>
+          <h1 id="titulo-principal">Diseño experiencias web claras y útiles.</h1>
+          <p id="saludo-tiempo-real" class="texto-resaltado" aria-live="polite"></p>
+          <p class="introduccion">
+            Soy Emanuel Ramírez López, desarrolladora web en formación. Combino estructura,
+            color y detalles sencillos para convertir ideas en sitios agradables de usar.
+          </p>
+          <a class="btn-principal" href="#proyectos">Ver proyectos</a>
+        </div>
+
+        <aside class="tarjeta-perfil" aria-label="Resumen de perfil">
+          <p class="avatar" aria-hidden="true">EL</p>
+          <p class="nombre">Emanuel Ramírez López</p>
+          <p class="rol">Desarrolladora web</p>
+          <ul class="datos-perfil">
+            <li><span>✦</span> HTML, CSS y JavaScript</li>
+            <li><span>✦</span> Interfaces responsivas</li>
+            <li><span>✦</span> Aprendizaje continuo</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="sobre-mi" class="seccion sobre-mi" aria-labelledby="titulo-sobre-mi">
+        <div>
+          <p class="etiqueta">Sobre mí</p>
+          <h2 id="titulo-sobre-mi">Tecnología con una mirada humana.</h2>
+        </div>
+        <p>
+          Me gusta crear páginas que sean fáciles de entender desde el primer vistazo.
+          En cada práctica busco mejorar la organización del código, la accesibilidad y
+          la experiencia de quien visita el sitio.
+        </p>
+      </section>
+
+      <section id="proyectos" class="seccion" aria-labelledby="titulo-proyectos">
+        <div class="encabezado-seccion">
+          <div>
+            <p class="etiqueta">Proyectos</p>
+            <h2 id="titulo-proyectos">Trabajos recientes</h2>
+          </div>
+          <p class="texto-secundario">Pequeños proyectos para practicar soluciones completas.</p>
+        </div>
+
+        <div class="rejilla-proyectos">
+          <article class="card">
+            <p class="numero-proyecto">01</p>
+            <h3>Viajes cercanos</h3>
+            <p>
+              Una página de inspiración para encontrar destinos, actividades y planes de fin de semana.
+            </p>
+            <p class="tecnologias">HTML · CSS · JavaScript</p>
+          </article>
+
+          <article class="card">
+            <p class="numero-proyecto">02</p>
+            <h3>Menú saludable</h3>
+            <p>
+              Una interfaz ordenada para presentar opciones de un restaurante y facilitar los pedidos.
+            </p>
+            <p class="tecnologias">HTML · CSS responsivo</p>
+          </article>
+
+          <article class="card">
+            <p class="numero-proyecto">03</p>
+            <h3>Lista de tareas</h3>
+            <p>
+              Una práctica de interacción con el DOM para organizar pendientes diarios de forma simple.
+            </p>
+            <p class="tecnologias">JavaScript · DOM</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="contacto" aria-labelledby="titulo-contacto">
+        <p class="etiqueta">Contacto</p>
+        <h2 id="titulo-contacto">¿Creamos algo juntos?</h2>
+        <p>Escríbeme para compartir ideas, proyectos o una oportunidad de aprendizaje.</p>
+        <a class="btn-principal" href="mailto:ramirezlopezema@gmail.com">ramirezlopezema@gmail.com</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Emanuel Ramírez López. Hecho con HTML, CSS y JavaScript.</p>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
